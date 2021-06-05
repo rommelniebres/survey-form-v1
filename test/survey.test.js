@@ -18,7 +18,7 @@ describe('Survey Model', function () {
 
 		expect(result).to.equal("Error! Captcha input doesn't matched.");
 	});
-	//dummy test for push trhu jenkin
+	//dummy test for push trhu jenkins
 	it('Should return error message when input captcha does not matched.', function () {
 		let surveyModel = new SurveyModel();
 		let result = surveyModel.verifyCaptchaInput('random');
